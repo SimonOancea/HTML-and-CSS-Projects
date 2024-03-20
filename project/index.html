@@ -3,171 +3,185 @@
 	<head>
 		<title>Romania Natural Parks</title>
 		<meta charset="utf-8"> 
+		<link rel="stylesheet"  href="./css/shared.css">
+		<link rel="stylesheet"  href="./css/animations.css">
 	</head>
 	<body>
-	<!-- navigation -->
-	<div>
-		</div>
-			<ul>
-				<a href="#home" id="link"><li>HOME</li></a>
-				<a href="#gallery" id="link"><li>GALLERY</li></a>
-				<a href="#contact" id="link"><li>RESERVATION</li></a>
-			</ul>
+		<!-- NAVIGATION -->
+<div class="wrap">
+	<div class="menu-container">
+		<ul class="menu">
+			<a href="#home" id="link"><li>HOME</li></a>
+			<a href="#gallery" id="link"><li>GALLERY</li></a>
+			<a href="#contact" id="link"><li>RESERVATIONS</li></a>
+		</ul>
+	</div>
+</div>
+		<!-- END NAVIGATION -->
+
+		<!-- HOME -->
+	<div id="home">
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">Natural Parks in Romania</span>
+			</div>
 		</div>
 	</div>
-		<!-- home -->
-		<div id="home">
-			<div>
-				<div>
-					<span>Natural Parks in Romania</span>
+		<!-- END HOME -->
+
+		<!-- GALERY -->
+	<section id="gallery">
+		<div class="container">
+			<h1>Gallery</h1>
+			<div class="flex-container">
+			<!-- PHOTO 1 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_0.jpg" alt="Bucegi Natural Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Bucegi Natural Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 1 -->
+
+				<!-- PHOTO 2 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_1.jpg" alt="Cheile Nerei–Beușnița National Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Cheile Nerei–Beușnița National Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 2 -->
+
+				<!-- PHOTO 3 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_2.jpg" alt="Ceahlau National Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Ceahlau National Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 3 -->
+
+				<!-- PHOTO 4 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_3.jpg" alt="Retezat National Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Retezat National Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 4 -->
+
+				<!-- PHOTO 15 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_4.jpg" alt="The Domogled-Valea Cernei National Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>The Domogled-Valea Cernei National Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 5 -->
+
+				<!-- PHOTO 6 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_5.jpg" alt="Builă-Vânturărița National Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Builă-Vânturărița National Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 6 -->
+				
+				<!-- PHOTO 7 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_6.jpg" alt="Rodna National Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Rodna National Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 7 -->
+				
+				<!-- PHOTO 8 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_7.jpg" alt="Piatra Craiului National Park">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Piatra Craiului National Park</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 8 -->
+				
+				<!-- PHOTO 9 -->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="images/thumb/thumbnail_8.jpg" alt="Porțile de Fier also known as Danube Gorges">
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
+							<p>Porțile de Fier also known as Danube Gorges</p>
+						</div>
+					</div>
+				</div>
+				<!-- END PHOTO 9 -->
+				<p></p>
+			</div>
+		</div>
+	</section>
+		<!-- END GALERY -->
+
+		<!-- RESERVATION -->
+	<section  id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Reservations</h1>
+				<div class="reservations">
+					<h2>
+						<span>Now you can experience the beauty of the Carpathian Mountains.</span>
+						<br>Reserve your trip today!
+					</h2>
+					<p class="rsvp-text"> Please provide us with your basic contact information.</p>
+					<div class="form-rsvp">
+						<form action="" method="post">
+							<input class="rsvp" type="text" value="" placeholder="First Name"><br>
+							<input class="rsvp" type="text" value="" placeholder="Last Name"><br>
+							<input class="rsvp" type="text" value="" placeholder="Email Adress"><br>
+							<input clas="rsvp" type="text" value="" placeholder="Phone Number"><br>
+							<div class="form-spacer">
+							</div>
+							<div class="submit">
+								<label class="terms">Terms and Conditions</label>
+								<input type="submit" value="Submit">
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- gallery -->
-		<section>
-			<div id="gallery">
-				<h1>Gallery</h1>
-				<div>
-				<!-- photo 1 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_0.jpg" alt="Bucegi Natural Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 2 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_1.jpg" alt="Cheile Nerei–Beușnița National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 3 -->
-					<div class="photo-container">
-						<div>
-							<img src="images/thumb/thumbnail_2.jpg" alt="Ceahlau National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 4 -->
-					<div class="photo-container">
-						<div>
-							<img src="images/thumb/thumbnail_3.jpg" alt="Retezat National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 5 -->
-					<div class="photo-container">
-						<div>
-							<img src="images/thumb/thumbnail_4.jpg" alt="The Domogled-Valea Cernei National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 6 -->
-					<div class="photo-container">
-						<div>
-							<img src="images/thumb/thumbnail_5.jpg" alt="Builă-Vânturărița National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 7 -->
-					<div class="photo-container">
-						<div>
-							<img src="images/thumb/thumbnail_6.jpg" alt="Rodna National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 8 -->
-					<div>
-						<div>
-							<img src="images/thumb/thumbnail_7.jpg" alt="Piatra Craiului National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 9 -->
-					<div class="photo-container">
-						<div>
-							<img src="images/thumb/thumbnail_8.jpg" alt="Porțile de Fier also known as Danube Gorges">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-					<!-- photo 10 -->
-					<div class="photo-container">
-						<div>
-							<img src="images/thumb/thumbnail_9.jpg" alt="Călimani National Park">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>We have a lot of Natural Parks. You need to pick one for you trip.</p>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		<!-- reseervation -->
-		<section>
-			<div id="contact">
-				<h1>Reservation</h1>
-				<h2><span>If you want to experience the beauty of the Carpathian Mountains,</span><br>
-				Reserve your trip today.</h2>
-				<p> Please provide us with your basic contact information.</p>
-				<div>
-					<form action="" method="post">
-						First Name: <input class="rsvp" type="text" value=""><br>
-						Last Name: <input class="rsvp" type="text" value=""><br>
-						Email Adress: <input class="rsvp" type="text" value=""><br>
-						Phone Number: <input clas="rsvp" type="text" value=""><br>
-						<div class="form-trip">
-							<label class="terms">Terms and Conditions</label>
-						</div>
-						<div>
-							<input type="submit" value="Submit">
-						</div>
-					</form>
-				</div>
-			</div>
-		</section>	
-			
+	</section>
+		<!-- END RESERVATION -->
 		
-		<div>
-		<footer>www.romania's_nature.nature &nbsp; &copy; 2024</footer>
+	<!-- FOOTER -->
+		<div id="footer">
+			www.romanianaturalparks.com &nbsp;|&nbsp; &copy; 2024
 		</div>
-	</body>
+	<!-- END FOOTER -->
+</body>
 </html>
