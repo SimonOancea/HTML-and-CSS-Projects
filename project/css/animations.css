@@ -33,7 +33,7 @@ menu li:hover {
     background-color: rgba(100, 65, 0, 0.3);
 }
 
- /* GALLERY SECTION ANIMATION */
+        /* GALLERY SECTION ANIMATION */
 
 .photo {
     position: relative;
@@ -83,7 +83,7 @@ menu li:hover {
     margin-top: 5%;
 }
 
-/* PHOTO OVERLAY TRANSITIONS */
+        /* PHOTO OVERLAY TRANSITIONS */
 
     
 .photo-overlay:hover {    
