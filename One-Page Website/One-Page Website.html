@@ -2,14 +2,17 @@
 <html lang="en">
 	<head>
 		<title>Mario Gotze</title>
-		<meta charset="utf-8"> 
+		<meta charset="utf-8">
+		<link rel="stylesheet" type=text/css href="./css/one_page_website.css">
 	</head>
 	<body>
-		<nav>
-			<a href="#home" id="link"><li>HOME</li></a>
-			<a href="#gallery" id="link"><li>GALLERY</li></a>
-			<a href="#contact" id="link"><li>CONTACT</li></a>
-		</nav>
+		<!-- navbar -->
+		<div class="navbar">
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery" id="link"><li>GALLERY</li></a>
+				<a href="#contact" id="link"><li>CONTACT</li></a>
+		</div>
+		<!-- home -->
 		<div id="home">
 			<h1 style="text-align:center">SUPER MARIO GOTZE</h1>
 			<details>
@@ -23,6 +26,7 @@
 				</p>
 			</details>
 		</div>
+		<!-- gallery -->
 		<section>
 			<div id="gallery">
 				<h1>Gallery</h1>
@@ -39,18 +43,27 @@
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/1QJ6P8Yxil4?si=m1CRzoAzrS4r7pWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 		</section>
-		
+		<!-- contact -->
 		<div id="contact">
-			<h3>If you want to receive daily announcements about Mario Gotze's life, please fill in the fields below:
-			<form action="" method="post">
-				First Name: <input type="text" name="First_Name"><br>
-				Last Name: <input type="text" name="Last_Name"><br>
-				Email: <input type="text" name="Email"><br>
-				Phone Number: <input type="text" name="Phone_Number"><br>
-				<input type="submit" name="Submit">
-			</form>
+			<div class="form-1">
+				<h3>If you want to receive daily announcements about Mario Gotze's life, please fill in the fields below:
+				<div class="form-spacer">
+				</div>
+					<form action="" method="post">
+					First Name: <input type="text" name="First_Name"><br>
+					Last Name: <input type="text" name="Last_Name"><br>
+					Email: <input type="text" name="Email"><br>
+					Phone Number: <input type="text" name="Phone_Number"><br>
+					<div class="form-spacer">
+					</div>
+					<div class="submit">
+						<label class="terms">Terms and Conditions</label>
+						<input type="submit" value="Submit">
+					</div>
+				</form>
+			</div>
 		</div>
-		
+		<!-- footer -->
 		<footer>
 			<p>This site was made by Simon Oancea &nbsp; &copy; 2024</p>
 		</footer>
