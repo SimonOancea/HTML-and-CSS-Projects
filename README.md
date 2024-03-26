@@ -1,5 +1,9 @@
 # HTML-and-CSS-Projects
-## Introduction
-This repository will contain my projects using HTML and CSS.
 
-I will add more information at this file when I will add projects to repository.
+## Introduction
+This repository contain my projects using HTML and CSS.
+
+## Basic_HTMLand_CSS
+This folder contain multiple simple sites where I experienced different fonts, backgrounds,lists, and a table.
+
+
